@@ -1,0 +1,41 @@
+@media (max-width: 1024px) {
+    .center,
+    .wrapper-center {
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+    }
+
+    .section-box-stock {
+        flex-wrap: wrap;
+        gap: 29px 10px;
+    }
+
+    .footer-logo {
+        display: none;
+    }
+
+    .card-set {
+        @include flexColumn;
+    }
+
+    .product-information {
+        max-width: 100%;
+    }
+
+    .div-section-catalog {
+        column-gap: 20px;
+    }
+
+    .title {
+        width: auto;
+        word-break: break-word;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 833px) {
+    .order-card {
+        width: 343px;
+    }
+}
+
+
