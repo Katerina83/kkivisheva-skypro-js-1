@@ -1,0 +1,64 @@
+@mixin fontMontserrat {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 70px;
+    color: $basic-white;
+}
+
+@mixin fontRoboto {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: $basic-black;
+}
+
+@mixin flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@mixin grid {
+    text-align: center;
+    display: grid;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@mixin centering() {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+
+@mixin flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin border {
+    border-bottom: 0.5px solid $basic-border;
+    padding-bottom: 14px;
+}
+
+@mixin button-basket {
+    width: 200px;
+    height: 37px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #020202;
+    background-color: transparent;
+}
+
+@mixin box {
+    min-height: 243px;
+    min-width: 343px;
+    background-size: 100%;
+}
